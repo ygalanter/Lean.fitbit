@@ -1,1 +1,2 @@
 # Lean
+Minimalistic digital clock
