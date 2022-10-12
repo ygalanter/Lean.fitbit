@@ -7,8 +7,10 @@
     "wipeColor": "",
     "requestedPermissions": [],
     "buildTargets": [
-      "higgs",
-      "meson"
+      "atlas",
+      "vulcan",
+      "hera",
+      "rhea"
     ],
     "i18n": {
       "en": {
@@ -17,14 +19,16 @@
     }
   },
   "devDependencies": {
-    "@fitbit/sdk": "~3.0.0",
-    "@fitbit/sdk-cli": "^1.5.0"
+    "@fitbit/sdk": "6.2.0-pre.0",
+    "@fitbit/sdk-build-targets": "file:fitbit-sdk-build-targets-1.6.0-pre.6.tgz",
+    "@fitbit/sdk-cli": "1.8.0-pre.2"
   },
   "dependencies": {
-    "fitbit-asap": "^1.0.3",
+    "fitbit-file-messaging": "^1.8.3",
     "fitbit-preferences": "^1.0.0"
   },
   "scripts": {
-    "build": "fitbit-build"
+    "build": "fitbit-build",
+    "debug": "fitbit"
   }
 }
