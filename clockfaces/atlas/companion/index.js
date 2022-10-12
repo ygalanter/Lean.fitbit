@@ -1,5 +1,5 @@
 import { settingsStorage } from "settings";
-import asap from "fitbit-asap/companion"
+import { peerSocket } from 'fitbit-file-messaging'
 
 console.log("Companion Started");
 
@@ -10,7 +10,7 @@ settingsStorage.onchange = evt => {
     key: evt.key,
     newValue: evt.newValue
   };
-  asap.send(data);
+  peerSocket.send(data);
 };
 
 // Restore any previously saved settings and send to the device
