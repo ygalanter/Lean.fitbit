@@ -1,0 +1,12 @@
+<svg>
+  
+  <rect id="background" width="100%" height="100%" x="0" y="0" />
+  <rect id="statusBar" x="0" y="0" width="100%" height="10%" opacity="0.2" />
+
+   <text class="data" id="date" x="65" y="26" text-anchor="start" />
+   <text class="data" id="battery" x="100%-65" y="26" text-anchor="end" />
+
+  <g transform="scale(1,2.8)">
+      <text class="time" id="time" x = "50%" y = "33%" />
+  </g>
+</svg>

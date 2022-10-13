@@ -1,0 +1,12 @@
+.time {
+  font-size: 120;
+  font-family: Colfax-Thin;
+  text-length: 32;
+  text-anchor: middle;
+}
+
+.data {
+  font-size: 20;
+  font-family: Colfax-Regular;
+  text-length: 32;
+}
